@@ -1,0 +1,54 @@
+main {
+  min-height: calc(100vh - 160px);
+}
+/* Estilos para el contenedor principal */
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+/* Estilos para cada elemento de resultado */
+.resultado {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Estilos para el título */
+.resultado h1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Estilos para la imagen */
+.resultado img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Estilos para la descripción */
+.resultado p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/*Estilos para los comentarios*/
+
+#comentarios{
+    margin-left: 60px;
+}
+
+/*estilos para la caja de comentarios*/
+
+#agregarCom{
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
