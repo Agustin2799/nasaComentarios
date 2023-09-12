@@ -9,6 +9,10 @@ main {
   margin: 20px;
 }
 
+#inputBuscar{
+  background-color:paleturquoise
+
+}
 /* Estilos para cada elemento de resultado */
 .resultado {
   width: 300px;
@@ -43,12 +47,36 @@ main {
 
 #comentarios{
     margin-left: 60px;
+    
+}
+
+.coment{
+  border: solid darkslategray;
+  margin-bottom: 8px;
+  border-radius: 10% 0 20% 0;
 }
 
 /*estilos para la caja de comentarios*/
 
 #agregarCom{
+  display: flex;
     flex-direction: column;
+    text-align: center;
     width: 50%;
     margin: 0 auto;
+}
+
+
+
+#usuario, #valorComentario, #emoji {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  background-color:paleturquoise
+}
+
+body{
+background-color:lightblue
 }
